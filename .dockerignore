@@ -1,0 +1,18 @@
+# Ignore Python bytecode files and cache directories
+__pycache__
+*.pyc
+
+# Ignore version control system files and directories
+.git
+
+# Ignore environment and configuration files
+.env
+.venv
+
+# Ignore Docker-related files
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Ignore GitHub-related files and directories
+.github/

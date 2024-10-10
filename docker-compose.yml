@@ -1,0 +1,10 @@
+services:
+  web:
+    build: .
+    ports:
+      - "7860:7860"
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+    restart: unless-stopped
